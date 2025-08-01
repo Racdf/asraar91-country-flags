@@ -1,0 +1,25 @@
+.flags-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.flag-card {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  width: 150px;
+}
+
+.flag-card img {
+  width: 100%;
+  height: 80%;
+  margin-bottom: 10px;
+}
